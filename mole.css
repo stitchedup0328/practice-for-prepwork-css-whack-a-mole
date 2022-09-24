@@ -26,6 +26,7 @@
   left: 54.5px;
   width: 188px;
   transition: margin-top .25s;
+  overflow-block: hidden;
 }
 
 .wgs__mole-hill {
@@ -42,7 +43,26 @@
   position: absolute;
   left: 54.5px;
   width: 188px;
+  transition: margin-top .25s;
+  overflow-block: hidden;
 }
+
+.wgs__mole-head--whacked {
+  /* margin-top: 241px; */
+  height: 178px;
+  position: fixed;
+  left: 54.5px;
+  top: 500px;
+  width: 188px;
+  overflow-block: visible;
+  transform: rotate(990deg) scale(.5) translateX(75%) translateY(-75%);
+  transition: all .75s;
+}
+
+/* .wgs__mole-head--whacked::selection {
+  transform: rotate(990deg) scale(.5) translateX(50%) translateY(-50%);
+  overflow-block: visible;
+} */
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
